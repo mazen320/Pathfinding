@@ -44,7 +44,7 @@ public class Board : MonoBehaviour
 
         if (Instance.Tiles.TryGetValue(position, out tile)) // this is a fix if the tiles are outside the map 
             return tile;
-        return null;
+        //return null;
 
         return Instance.Tiles[position];
     }
