@@ -1,0 +1,9 @@
+C:\Users\mazen\source\repos\API\API\bin\Debug\API.dll
+C:\Users\mazen\source\repos\API\API\bin\Debug\API.pdb
+C:\Users\mazen\source\repos\API\API\bin\Debug\UnityEngine.dll
+C:\Users\mazen\source\repos\API\API\bin\Debug\UnityEngine.xml
+C:\Users\mazen\source\repos\API\API\obj\Debug\API.csproj.AssemblyReference.cache
+C:\Users\mazen\source\repos\API\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Users\mazen\source\repos\API\API\obj\Debug\API.csproj.CopyComplete
+C:\Users\mazen\source\repos\API\API\obj\Debug\API.dll
+C:\Users\mazen\source\repos\API\API\obj\Debug\API.pdb
