@@ -34,7 +34,8 @@ public abstract class Pathfinder : MonoBehaviour
             temp = temp.Previous;
         }
         path.Add(temp);
-        path.Reverse();
+        path.Reverse(); //retrace We are only going to need a temporary list to hold our intermediate results during the processing.
+                        //this is to ensure that our enemy moves from the beginning till the end of the established route.
         return path;
     }
     void PrintPath(List<TileLogic> path)
@@ -44,6 +45,7 @@ public abstract class Pathfinder : MonoBehaviour
             Debug.Log(t.Position);
         }
     }
+    /*
     protected bool ValidateMovement(TileLogic from, TileLogic to)
     {
         if (to.CostFromOrigin > SearchLength)
@@ -51,5 +53,5 @@ public abstract class Pathfinder : MonoBehaviour
             return false;
         }
         return true;
-    }
+    }*/
 }
